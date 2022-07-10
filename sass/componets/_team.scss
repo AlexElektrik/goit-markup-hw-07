@@ -7,6 +7,16 @@
   padding-bottom: 94px;
 }
 
+.developer .social-items {
+  justify-content: center;
+}
+
+.developer .icon-social__link {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .developer__title {
   font-weight: 700;
   font-size: 36px;
@@ -47,14 +57,4 @@
 .developer-caption__profession {
   text-align: center;
   margin-bottom: 28px;
-}
-
-.developer .social-items {
-  justify-content: center;
-}
-
-.developer .icon-social__link {
-  fill: #afb1b8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -26,11 +26,12 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   outline: transparent;
-}
-
-.form-subscribe-fild:focus {
+  &:focus {
   border-color: var(--color-accent);
 }
+}
+
+
 
 .form-subscribe__button {
   font-family: "Roboto";

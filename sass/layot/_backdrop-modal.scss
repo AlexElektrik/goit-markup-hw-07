@@ -43,15 +43,14 @@
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  & :hover,
+  & :focus {
+    fill: var(--color-accent);
+  }
 }
 
 .button-close__icon {
   fill: #000000;
-}
-
-.button-close :hover,
-.button-close :focus {
-  fill: var(--color-accent);
 }
 
 .is-hidden {
